@@ -75,26 +75,31 @@ footer {
     margin-bottom: 10px;
     background-color: #474242df;
 }
-
 .tags {
     display: flex;
     width: 60%;
     justify-content: space-evenly;
 
 }
+.tags a{
+    text-decoration: none;
+}
 
-.transition_effect:hover {
-    height: 60px;
+.transition_effect{
     width: 60px;
+    height: 60px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    }
+.transition_effect:hover {
+    height: 60px;
+    width: 60px;
     font-size: 40px;
     background-color: whitesmoke;
     color: black;
-    border: 2px solid whitesmoke;
     border-radius: 50px;
-    position: sticky;
     transition: font-size 2s ease-in-out 0.2s;
-
-}
+   
+} 
